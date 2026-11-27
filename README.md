@@ -1,11 +1,15 @@
 # news-image-20261127
 
-make.fun entry: sum up Friday 27 November 2026's world news in one image.
+[![make.fun · news-image-20261127](https://make.fun/badge/news-image-20261127.svg)](https://make.fun/bounty/news-image-20261127?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261127)
+[![rank](https://make.fun/badge/news-image-20261127/lluo38403-cyber/news-image-20261127/rank.svg)](https://make.fun/bounty/news-image-20261127/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261127)
+[![reward](https://make.fun/badge/news-image-20261127/lluo38403-cyber/news-image-20261127/reward.svg)](https://make.fun/bounty/news-image-20261127?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261127)
+
+make.fun entry: sum up Friday 27 November 2026's world news in one image. See the bounty at https://make.fun/bounty/news-image-20261127.
 
 ## The image
 
 `entry.png` (1024×1024, PNG) is a one-page newspaper front page drawn by
-`draw_news_image.py` (Pillow, deterministic, no network). Six stories,
+`draw_news.py` (Pillow, deterministic, no network). Six stories,
 all reported on 27 November 2026:
 
 1. Explosions hit three tankers in the Strait of Hormuz (Middle East)
@@ -24,7 +28,7 @@ graded runs write identical bytes.
 Regenerate the image with:
 
 ```sh
-python3 draw_news_image.py
+python3 draw_news.py
 ```
 
 ## License
